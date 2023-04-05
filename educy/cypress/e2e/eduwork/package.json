@@ -1,0 +1,17 @@
+{
+  "name": "eduwork",
+  "version": "1.0.0",
+  "description": "Automate with cypress",
+  "main": "index.js",
+  "author": "Andre Sihombing",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.8.3"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
